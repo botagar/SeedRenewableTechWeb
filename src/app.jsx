@@ -11,6 +11,16 @@ const style = {
         backgroundPosition: 'center',
         width: '100%',
         height: '100vh'
+    },
+    heading: {
+        textAlign: 'center',
+        padding: '25vh 0 0 0',
+        fontSize: '6em'
+    },
+    subHeading: {
+        textAlign: 'center',
+        padding: '2vh 0 0 0',
+        fontSize: '2em'
     }
 }
 
@@ -33,8 +43,8 @@ class App extends Component {
   render() {
     return (
       <div style={style.backgroundImage}>
-        <h1>Seed Renewable Tech</h1>
-        <h2>Nurture the next generation of sustainable business</h2>
+        <h1 style={style.heading}>Seed Renewable Tech</h1>
+        <h2 style={style.subHeading}>Nurture the next generation of sustainable business</h2>
       </div>
     )
     
